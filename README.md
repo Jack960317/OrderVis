@@ -11,17 +11,7 @@
 
 https://download.pytorch.org/tutorial/data.zip
 
-```shell
-unzip data.zip
-```
-Included in the ``data/names`` directory are 18 text files named as  
-"[Language].txt". Each file contains a bunch of names, one name per  
-line, mostly romanized (but we still need to convert from Unicode to  
-ASCII).  
 
-We'll end up with a dictionary of lists of names per language,  
-``{language: [names ...]}``. The generic variables "category" and "line"  
-(for language and name in our case) are used for later extensibility.  
 
 
 ## how to run

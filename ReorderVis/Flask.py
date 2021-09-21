@@ -1,3 +1,4 @@
+from glob import glob
 from GetPartnerCovid import CastToTrainWithOrderCovid,GetOrderLineDetailCovid
 from GetPartner import GetOrderLineDetail,CastToTrainWithOrder
 
@@ -48,7 +49,7 @@ RNNModel=None
 #获取原始输入，计算predict结果以及重要性
 #计算和输入有关的所有可解释性数据
 def oriInputSigni():
-    global MyReorder,oriSenList,differCount,myinput    # colorCount
+    global MyReorder,oriSenList,differCount,myinput ,RNNModel   # colorCount
     MyReorder=None
     MyDiffer=None
 
@@ -164,7 +165,7 @@ def oriInputSigni():
 @app.route('/getPredict',methods=['POST'])   #第一个参数是路由，第二个是请求方法
 def getPredict():
     #该方法对前端传来的用户reorder的输入序列进行预测
-    global MyReorder
+    global MyReorder ,RNNModel
     nowList = request.get_json().get('nowList')  #得到前端传送的数据
     # rnnType = request.get_json().get('rnnType')
     # taskType=request.get_json().get('taskType')
@@ -187,6 +188,7 @@ def getPredict():
 
 
 def ToRun(rnnMo):
+    global RNNModel
     RNNModel=rnnMo
     app.run(host="0.0.0.0",port=5000)
 

@@ -4,3 +4,5 @@
 
 # if __name__=='__main__':
 #     print 'as the main program'
+from Flask import ToRun
+__all__ = ["Flask"]

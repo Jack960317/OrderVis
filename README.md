@@ -2,6 +2,9 @@
 
 > A Vue.js project
 
+## How To Run
+在文件夹下运行npm run dev即可运行，同时文件夹已打包好一份内容存放在dist中，使用nginx运行该dist也可有同样效果
+
 ## Build Setup
 
 ``` bash

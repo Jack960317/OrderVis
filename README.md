@@ -22,7 +22,7 @@
 
     如果你想使用我们的程序对您训练好的模型进行可解释性研究。您的可解释性模型需要满足以下要求：
       1.模型中有一个Predict函数，接收string类型的输入，输入以空格进行隔开（即可以接收 this is great 或者23452 87344 98924这种类型的输入），返回这个输入的预测值，预测值的格式应为python基本格式（list/float等），这个Predict函数一次只处理一个输入。具体操作，可参照本文件夹中的RNNModelPredict文件进行修改。
-      2.在ServerToStart文件中引入这个模型，修改theMod函数
+      2.在ServerToStart文件中引入这个模型，修改theMod变量，将需要被解释的模型的一个对象赋值给该参数
 
 
 ## output

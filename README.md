@@ -1,7 +1,9 @@
-# ReorderVis
+# OrderVis
 It's a interface for ReorderVis, a tool that can rise the explainability of your Rnn Model.
 
 
-这个系统分为两个部分——浏览器部分browser side和机器学习部分machine learning side。其中机器学习部分计算用户输入的预测值以及输出的预测值相关的可解释性的信息，
-机器学习部分可以直接运行提供一部分的可解释性，而browser side则负责可视化、交互的功能，在机器学习部分的基础上大大提升可解释性。如果需要使用我们的系统，需要分
-别在同一台或两台机器上运行这两个部分 browser side 和 machine learning side。这两个系统的代码已放在相对应的同名分支下了，请点击branch查看。
+This system is divided into two parts - browser side and machine learning side. The machine learning side calculates interpretable information of the RNN model the researcher set based on the input and the prediction value of the input reordered by the end user. The machine learning part can run directly to provide part of the interpretability. The code has been placed under the machine learning side branch.
+
+
+While the browser side is responsible for the functions of visualization and interaction, which greatly improves the interpretability with the help of the machine learning side. If you need to use our system, you need to run the browser side and machine learning side on the same or two machines. 
+

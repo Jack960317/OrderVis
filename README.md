@@ -16,3 +16,5 @@ If you need to use our system, you need to run the browser side and machine lear
 If you just want to check the efficiency of the system, you can visit http://52.82.121.31:81/ to use the example we have set.
 
 ![image](https://github.com/505025234/OrderVis/blob/main/interFace.png)
+
+[generalizationProcedure.pdf](https://github.com/505025234/OrderVis/blob/main/generalizationProcedure.png)

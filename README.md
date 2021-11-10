@@ -13,5 +13,5 @@ If you need to use our system, you need to run the browser side and machine lear
 
 
 
-If you just want to check the efficiency of the system, you can just visit http://52.82.121.31:81/ to use the example we have set.
+If you just want to check the efficiency of the system, you can visit http://52.82.121.31:81/ to use the example we have set.
 

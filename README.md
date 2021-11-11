@@ -17,13 +17,12 @@ If you just want to check the efficiency of the system, you can visit http://52.
 
 
 ## Critical Interface
-1.The researchers need to import target model in the interface StartPro, and run the machine learning side through this interface. 
-2.While the program is running, the machine learning side will call the interface oriInputSigni to calculate the interpretable information of the RNN model. 
-3.The interface getPredict is set to provide the prediction value of the input reordered by the end user.
-4.If you want to use our system to trace the training data, retreating your data is essential, you should use the interface ReadFile to import your model and read your data into cash. The detail of using will show in the branch maching learning side.
+1.The researchers need to import target model in the interface StartPro, and run the machine learning side through this interface.  
+2.While the program is running, the machine learning side will call the interface oriInputSigni to calculate the interpretable information of the RNN model.  
+3.The interface getPredict is set to provide the prediction value of the input reordered by the end user.  
+4.If you want to use our system to trace the training data, retreating your data is essential, you should use the interface ReadFile to import your model and read your data into cash. The detail of using will show in the branch maching learning side.  
 ![image](https://github.com/505025234/OrderVis/blob/main/interFace.png)
 
-[generalizationProcedure.pdf](https://github.com/505025234/OrderVis/blob/main/generalizationProcedure.png)
 ## Main function
 ### machine learning side (back-end)
 1.ReadFile and PreTreat are used to pretreat the training data. (The pretreatment is unnecessary. However, it must be done before you establish the machine learning side server if you want to trace your train data.)  

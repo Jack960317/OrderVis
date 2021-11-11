@@ -26,11 +26,11 @@ If you just want to check the efficiency of the system, you can visit http://52.
 [generalizationProcedure.pdf](https://github.com/505025234/OrderVis/blob/main/generalizationProcedure.png)
 ## Main function
 ### machine learning side (back-end)
-1.ReadFile and PreTreat are used to pretreat the training data. (The pretreatment is unnecessary. However, it must be done before you establish the machine learning side server if you want to trace your train data.)
-2.ServertoStart and StartPro are used to import the model which will be interpreted.
-3.ReorderByGroup is used to calculate the local interpretability and the glabal interpretability of the model; GetDiffer is used to catch the critical order line with genetic algorithm; GetPartner is used to trace the train data(it cannot be used without pretreatment).
-4.GetPredict is used to calculate the prediction value of the input reordered by the end user.
+1.ReadFile and PreTreat are used to pretreat the training data. (The pretreatment is unnecessary. However, it must be done before you establish the machine learning side server if you want to trace your train data.)  
+2.ServertoStart and StartPro are used to import the model which will be interpreted.  
+3.ReorderByGroup is used to calculate the local interpretability and the glabal interpretability of the model; GetDiffer is used to catch the critical order line with genetic algorithm; GetPartner is used to trace the train data(it cannot be used without pretreatment).  
+4.GetPredict is used to calculate the prediction value of the input reordered by the end user.  
 ### browser side (front-side)
-1.GetInput will communicate with the machine learning side and invoke ReorderByGroup, GetDiffer, GetPartner. it will show the interpretable information of the RNN model graphically.
-2.When the end user interact with the system in the form of dragging components or token, DragData will be called and communicate with the machine learning side. DragData will show the prediction value of the reordered input.
+1.GetInput will communicate with the machine learning side and invoke ReorderByGroup, GetDiffer, GetPartner. it will show the interpretable information of the RNN model graphically.  
+2.When the end user interact with the system in the form of dragging components or token, DragData will be called and communicate with the machine learning side. DragData will show the prediction value of the reordered input.  
 ![image](https://github.com/505025234/OrderVis/blob/main/generalizationProcedure.png)

@@ -35,4 +35,5 @@ If you just want to check the efficiency of the system, you can visit http://52.
 ![image](https://github.com/505025234/OrderVis/blob/main/generalizationProcedure.png)
 
 ##Example View
-![image](https://github.com/505025234/OrderVis/blob/main/interFace.png)
+
+![image](https://github.com/505025234/OrderVis/blob/main/localhost_8080_.png)

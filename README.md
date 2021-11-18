@@ -33,3 +33,6 @@ If you just want to check the efficiency of the system, you can visit http://52.
 1.GetInput will communicate with the machine learning side and invoke ReorderByGroup, GetDiffer, GetPartner. it will show the interpretable information of the RNN model graphically.  
 2.When the end user interact with the system in the form of dragging components or token, DragData will be called and communicate with the machine learning side. DragData will show the prediction value of the reordered input.  
 ![image](https://github.com/505025234/OrderVis/blob/main/generalizationProcedure.png)
+
+##Example View
+![image](https://github.com/505025234/OrderVis/blob/main/interFace.png)

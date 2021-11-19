@@ -34,6 +34,6 @@ The code has been placed under the browser side branch https://github.com/505025
   - 2.When the end user interact with the system in the form of dragging components or token, DragData will be called and communicate with the machine learning side. DragData will show the prediction value of the reordered input.  
 ![image](https://github.com/505025234/OrderVis/blob/main/generalizationProcedure.png)
 
-##Example View
+## Example View
 
 ![image](https://github.com/505025234/OrderVis/blob/main/localhost_8080_.png)

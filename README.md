@@ -9,18 +9,18 @@ This system is divided into two parts - browser side and machine learning side. 
 While the browser side is responsible for the functions of visualization and interaction, which greatly improves the interpretability with the help of the machine learning side. 
 The code has been placed under the browser side branch https://github.com/505025234/OrderVis/tree/browser-side
 
-  'If you need to use our system, you need to run the browser side and machine learning side on the same or two machines.' 
 
 
+  `If you need to use our system, you need to run the browser side and machine learning side on the same or two machines.` 
 
-If you just want to check the efficiency of the system, you can visit http://52.82.121.31:81/ to use the example we have set.
+  `If you just want to check the efficiency of the system, you can visit http://52.82.121.31:81/ to use the example we have set.`
 
 
 ## Critical Interface
-1.The researchers need to import target model in the interface StartPro, and run the machine learning side through this interface.  
-2.While the program is running, the machine learning side will call the interface oriInputSigni to calculate the interpretable information of the RNN model.  
-3.The interface getPredict is set to provide the prediction value of the input reordered by the end user.  
-4.If you want to use our system to trace the training data, retreating your data is essential, you should use the interface ReadFile to import your model and read your data into cash. The detail of using will show in the branch maching learning side.  
+  - 1.The researchers need to import target model in the interface StartPro, and run the machine learning side through this interface.  
+  - 2.While the program is running, the machine learning side will call the interface oriInputSigni to calculate the interpretable information of the RNN model.  
+  - 3.The interface getPredict is set to provide the prediction value of the input reordered by the end user.  
+  - 4.If you want to use our system to trace the training data, retreating your data is essential, you should use the interface ReadFile to import your model and read your data into cash. The detail of using will show in the branch maching learning side.  
 ![image](https://github.com/505025234/OrderVis/blob/main/interFace.png)
 
 ## Main function

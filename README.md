@@ -3,7 +3,7 @@ It is an interface of OrderVis, a tool that can rise explainability of DTM(Deep 
 
 
 ## How to use
-This system is divided into two parts - browser side and machine learning side. The machine learning side calculates interpretable information of DTM that researchers set based on input and prediction value of input reordered by end user. The machine learning part can run directly to provide part of interpretability. The code has been placed under machine learning side branch https://github.com/505025234/OrderVis/tree/machine-learning-side
+This system includes two parts - browser side and machine learning side. The machine learning side calculates interpretable information of DTM that researchers set based on input and prediction value of input reordered by end user. The machine learning part can run directly to provide part of interpretability. The code has been placed under machine learning side branch https://github.com/505025234/OrderVis/tree/machine-learning-side
 
 
 While the browser side is responsible for functions of visualization and interaction, which greatly improves interpretability with help of the machine learning side. 

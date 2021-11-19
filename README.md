@@ -9,7 +9,7 @@ This system is divided into two parts - browser side and machine learning side. 
 While the browser side is responsible for the functions of visualization and interaction, which greatly improves the interpretability with the help of the machine learning side. 
 The code has been placed under the browser side branch https://github.com/505025234/OrderVis/tree/browser-side
 
-If you need to use our system, you need to run the browser side and machine learning side on the same or two machines. 
+  'If you need to use our system, you need to run the browser side and machine learning side on the same or two machines.' 
 
 
 

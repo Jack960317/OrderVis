@@ -37,3 +37,7 @@ The code has been placed under browser side branch https://github.com/505025234/
 ## Example View
 
 ![image](https://github.com/505025234/OrderVis/blob/main/localhost_8080_.png)
+
+## Trace Example
+
+![image](https://github.com/505025234/OrderVis/blob/main/localhost_8080_.png)

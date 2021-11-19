@@ -1,9 +1,9 @@
 # OrderVis
-It is an interface of OrderVis, a tool that can rise explainability of DTM(Deep Temporal Model).
+This is an interface of OrderVis. It is a tool that can improve the explainability of DTM(Deep Temporal Model).
 
 
 ## How to use
-This system includes two parts - browser side and machine learning side. The machine learning side calculates interpretable information of DTM that researchers set based on input and prediction value of input reordered by end user. The machine learning part can run directly to provide part of interpretability. The code has been placed under machine learning side branch https://github.com/505025234/OrderVis/tree/machine-learning-side
+This system includes two parts: browser side and machine learning side. The machine learning side calculates interpretable information of DTM set by researchers based on users' input, as well as predicted value of input after reordering by end user. The machine learning side can be run directly and offers partial interpretability. The code is available  under machine learning branch: https://github.com/505025234/OrderVis/tree/machine-learning-side .
 
 
 While the browser side is responsible for functions of visualization and interaction, which greatly improves interpretability with help of the machine learning side. 
@@ -40,4 +40,4 @@ The code has been placed under browser side branch https://github.com/505025234/
 
 ## Trace Example
 
-![image](https://github.com/505025234/OrderVis/blob/main/localhost_8080_.png)
+![image](https://github.com/505025234/OrderVis/blob/main/TraceExample.png)
